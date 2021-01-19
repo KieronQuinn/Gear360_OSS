@@ -1,0 +1,15 @@
+<FirmwareInfo>
+	<FWVersion>C200GLU0AQK1_171121_1257</FWVersion>
+	<DownloadURL>
+		<![CDATA[ https://media.githubusercontent.com/media/KieronQuinn/Gear360_OSS/main/firmware/SM-C200/C200GLU0AQK1_171121_1257_REV00_user.bin ]]>
+	</DownloadURL>
+	<Description>
+		<![CDATA[ • All settings will be reset
+ • Bluetooth security patch applied ]]>
+	</Description>
+	<DescriptionKor>
+		<![CDATA[ • All settings will be reset
+ • Bluetooth security patch applied ]]>
+	</DescriptionKor>
+	<DownloadFileSize>266MB</DownloadFileSize>
+</FirmwareInfo>
