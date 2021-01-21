@@ -42,7 +42,7 @@ Note: You can check the SHA256 hash with the hash files in the firmware/<model> 
 
 `/usr/sbin/fw_upgrade_start C200GLU0AQK1_171121_1257_REV00_user.bin`
 
-5.) Copy the `updater.sh` file to the **root** of the microSD
+5.) Copy the `updater.sh` file to the **root** of the microSD, unmount the microSD and put it into the camera.
 
 6.) Power up the camera, the update will install. Once completed, power off the device.
 
@@ -50,4 +50,10 @@ Note: You can check the SHA256 hash with the hash files in the firmware/<model> 
 
 ### Credits
 
-With thanks to [bankwing](https://forum.xda-developers.com/t/mod-port-samsung-gear-360-manager-for-all-devices-updated-10-jan-20-v1-4-00-4.3400383/post-84325745) for the information of firmware updates can be run from the microSD card.
+With thanks to [bankwing](https://forum.xda-developers.com/t/mod-port-samsung-gear-360-manager-for-all-devices-updated-10-jan-20-v1-4-00-4.3400383/post-84325745) for the information of how firmware updates can be run from the microSD card. 
+
+Additional thanks to whoever ran the archive.org save on [this](https://web.archive.org/web/20160310193011/http://www.samsungimaging.com/common/support/firmware/downloadUrlList.do?prd_mdl_name=SAMSUNG%20NX300&loc=global) firmware update endpoint for the Samsung NX300 camera back in 2016, pointing to the (at the time of writing) [still active](http://az335309.vo.msecnd.net/xmlcontainer/customer/data/firmware/xml/SAMSUNG_NX300_global_201504020451.xml) host for the XML files (giving us the format of the files), as well as archiving the [link](https://web.archive.org/web/20201011003035/http://www.samsungimaging.com/file/download?XmlIdx=138&file=NX300_FW_v1.45.zip) to the actual firmware for that device, pointing to `http://secaz-wearable-dn.samsungdm.com/firmcontainer/customer/data/firmware/fw/`, the *also* still active endpoint for the actual firmware. Appending the full firmware bin name to that URL will (at the time of writing) still work to download the firmware. 
+
+Thanks to https://github.com/ultramango/gear360reveng/ for (dead) links to the firmware, which contained the crucial filenames required  to download from the aforementioned endpoint.
+
+And finally, additional thanks to Lloyd Summers of FileArchiveHaven for [this article](https://www.filearchivehaven.com/2018/04/12/samsung-gear-360-2017-hacks-download-the-firmware-without-a-mobile-device/) \[[archived link](https://web.archive.org/web/20201123170010/http://www.filearchivehaven.com/2018/04/12/samsung-gear-360-2017-hacks-download-the-firmware-without-a-mobile-device/)\] containing some (partly-outdated) information on how the update XMLs are formatted, including the hash XML. This was also the source of the full filename for the R210.
