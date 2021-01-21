@@ -10,6 +10,10 @@ And one image for the Gear 360 (2017)
 
 `R210GLU0ARB2_180201_1739_REV00_user.bin` (latest)
 
+## Disclaimer
+
+Installing these updates is at your own risk. While every attempt has been made to make sure the files are complete and not corrupted (they match the SHA256 hash, they are linked correctly in the XMLs, etc.), I do not take responsibility for devices that fail to update, become corrupt etc. If you have access to one, I recommend using an original Samsung phone that was compatible with the camera in the first place (you will still need to use the modded APK), and using WiFi direct to connect to the camera. **Both offically supported and unsupported devices will check the hash of the firmware after downloading it, for safety.** Alternatively, you may find the method of installing via the microSD less risky if you find the app has a flakey connection during general use (the steps below include a note on checking the SHA256 hash).
+
 ## Installing
 
 You have two options for installing the firmware to your camera. Make sure the camera is charged fully before doing either of these:
