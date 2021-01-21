@@ -12,7 +12,7 @@ Mirrors of the source code zips can be found on [this](https://forum.xda-develop
 	
 	SM-C200_libnl-headers.zip 
 	
-	tools.zip` (contains arm-2010q1.tar.gz and libaro-4.7.3.tar.gz)
+	tools.zip (contains arm-2010q1.tar.gz and libaro-4.7.3.tar.gz)
 	
 	HOW_TO_BUILD.txt
 	
