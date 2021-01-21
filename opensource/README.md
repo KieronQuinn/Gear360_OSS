@@ -8,20 +8,20 @@ Mirrors of the source code zips can be found on [this](https://forum.xda-develop
 
 1.) `SM-C200_Opensource_C200GLU0AQK1.zip` (899.4MB), containing:
 	
-	`SM-C200_opensource.zip` (contains kernel and headers as below)
+	SM-C200_opensource.zip (contains kernel and headers as below)
 	
-	`SM-C200_libnl-headers.zip` 
+	SM-C200_libnl-headers.zip 
 	
-	`tools.zip` (contains `arm-2010q1.tar.gz` and `libaro-4.7.3.tar.gz`)
+	tools.zip` (contains arm-2010q1.tar.gz and libaro-4.7.3.tar.gz)
 	
-	`HOW_TO_BUILD.txt`
+	HOW_TO_BUILD.txt
 	
-	`libnl-header-NOTICE.txt`
+	libnl-header-NOTICE.txt
 	
 2.) `SM-C200_Opensource _C200GLU0APC9.zip` (split into two parts, totalling 1.36GB), containing: 
 	
-	`SM-C200_kernel.tar.gz`
+	SM-C200_kernel.tar.gz
 	
-	`SM-C200_libnl-headers.zip`
+	SM-C200_libnl-headers.zip
 	
-	`SM-C200_packages.tar.gz`
+	SM-C200_packages.tar.gz
