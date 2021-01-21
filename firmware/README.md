@@ -32,6 +32,8 @@ You have two options for installing the firmware to your camera. Make sure the c
 
 1.) Download the firmware you want to update to from [this XDA post](https://forum.xda-developers.com/t/mod-port-samsung-gear-360-manager-for-all-devices-updated-10-jan-20-v1-4-00-4.3400383/page-93)
 
+Note: You can check the SHA256 hash with the hash files in the firmware/<model> directory for your chosen firmware.
+
 2.) Copy it to the **root** of the microSD card of the camera
 
 3.) Download [updater.sh](https://raw.githubusercontent.com/KieronQuinn/Gear360_OSS/main/firmware/updater.sh)
