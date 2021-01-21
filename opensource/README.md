@@ -18,7 +18,7 @@ Mirrors of the source code zips can be found on [this](https://forum.xda-develop
 	
 	libnl-header-NOTICE.txt
 	
-2.) `SM-C200_Opensource _C200GLU0APC9.zip` (split into two parts, totalling 1.36GB), containing: 
+2.) `SM-C200_Opensource_C200GLU0APC9.zip` (split into two parts, totalling 1.36GB), containing: 
 	
 	SM-C200_kernel.tar.gz
 	
